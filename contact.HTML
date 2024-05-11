@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Formulier</title>
-    <link rel="stylesheet" href="styles.css"> <
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
 </head>
 <body>
 
@@ -27,11 +33,13 @@
     <label for="address">Brecht, België</label><br>
     <label for="address">mulanandmuchi@gmail.com</label><br>
     <label for="address">GSM: +32 465 000 00</label><br>
+    <div id="bedrijfmap" style="width: 600px; height: 240px;"></div>
 </form>
 
 </body>
 </html>
 <head>
+    <link rel="import" href="Leaflet.JS">    
     <img src="C:\Users\ceule\Downloads\Home - Banner - JouwWeb_files\img_20240323_102517.jpg"alt="logo" width="1000" height="800">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -65,4 +73,12 @@
         <h1></h1>
     </div>
 </body>
+<script>
+    var bedrijfmap = L.map('bedrijfmap').setView([51.321620, 4.590467], 14);
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+    }).addTo(bedrijfmap);
+    var bedrijfMarker = L.marker([51.321620, 4.590467]).addTo(bedrijfmap);
+    bedrijfMarker.bindPopup("<b>Check-Security</b>").openPopup(); 
+</script>
 </html>
