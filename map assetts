@@ -1,37 +1,23 @@
-img {https://th.bing.com/th/id/OIP.MNkkPfx2gmHJY_e37i9U1QHaFH?rs=1&pid=ImgDetMain
-  max-width: 100%; 
-  height: auto; 
-}
+"https://th.bing.com/th/id/OIP.MNkkPfx2gmHJY_e37i9U1QHaFH?rs=1&pid=ImgDetMain"
 
-img {"C:\Users\ceule\Downloads\login-form-and-hacker-with-lock-on-dark-background-concept-of-cyber-attack-and-security-2BFNP8G.jpg"
-  max-width: 100%; 
-  height: auto; 
-}
+"https://c8.alamy.com/comp/2BFNP8G/login-form-and-hacker-with-lock-on-dark-background-concept-of-cyber-attack-and-security-2BFNP8G.jpg""
 
-img {"C:\Users\ceule\Downloads\R (1).jpg"
-  max-width: 100%; 
-  height: auto; 
-}
+"https://th.bing.com/th/id/R.802479ac8ed4fec63c7a08fd2ade1270?rik=kvzztNeJcYv9Jw&pid=ImgRaw&r=0"
 
-img {"C:\Users\ceule\Downloads\ai-cybersecurit--696x442.webp"
-  max-width: 100%; 
-  height: auto; 
-}
+"https://em360tech.com/sites/default/files/2020-05/ai-cybersecurit--696x442.jpg"
 
-img {"C:\Users\ceule\Downloads\thinkstockphotos-499123970-100738770-large.jpg"
-  max-width: 100%; 
-  height: auto; 
-}
+"https://images.idgesg.net/images/article/2017/10/thinkstockphotos-499123970-100738770-large.jpg"
 
-img {"C:\Users\ceule\Downloads\R.jpg"
-  max-width: 100%; 
-  height: auto; 
-}
 
-img {"C:\Users\ceule\Downloads\OIP.jpg"
-  max-width: 100%; 
-  height: auto; 
-}
+"https://th.bing.com/th/id/R.ae34522661c3f897d792fcd0ab2c2efa?rik=BBo66tmIPTQrsw&pid=ImgRaw&r=0"
 
-fonts:
-sans serif
+
+"https://th.bing.com/th/id/OIP.TC0epwJ-tPRjHt5fRzi1DgHaGP?rs=1&pid=ImgDetMain"
+
+"https://th.bing.com/th/id/R.6b7fc1943b0284b460fcf612e30cbfcd?rik=vFZ7ph8jHfdFgQ&pid=ImgRaw&r=0"
+
+"https://th.bing.com/th/id/R.6e1d50c6901342918e2399e478324d16?rik=aOow2qhnU%2fVfpg&pid=ImgRaw&r=0"
+
+<fonts>
+  <sans>
+    serif
