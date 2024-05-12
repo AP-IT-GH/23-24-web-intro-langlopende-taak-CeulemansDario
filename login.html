@@ -52,11 +52,11 @@
     </div>
 </body>
 <script>
-    var bedrijfmap = L.map('bedrijfmap').setView([51.321620, 4.590467], 14);
+    var bedrijfmap = L.map('bedrijfmap').setView([51.324015, 4.594517], 14);
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
     }).addTo(bedrijfmap);
-    var bedrijfMarker = L.marker([51.321620, 4.590467]).addTo(bedrijfmap);
+    var bedrijfMarker = L.marker([51.324015, 4.594517]).addTo(bedrijfmap);
     bedrijfMarker.bindPopup("<b>Cyber-Security</b>").openPopup(); 
 </script>
 </html>
